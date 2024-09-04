@@ -12,6 +12,6 @@ public class HttpTriggerDemo {
             final ExecutionContext context) {
         context.getLogger().info("Java HTTP trigger processed a request.");
 
-        return request.createResponseBuilder(HttpStatus.OK).body("Seems to work").build();
+        return request.createResponseBuilder(HttpStatus.OK).body("Seems to work (new version)").build();
     }
 }
